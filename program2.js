@@ -8,7 +8,7 @@ var romanToInt = function(s) {
     }
     let integeralValue = 0;
     let i = 0;
-    for(i < s.length){
+    while(i < s.length){
       if(romanNum[s[i]] < romanNum[s[i + 1]]){
         integeralValue += romanNum[s[i + 1]] - romanNum[s[i]];
         i += 2;
