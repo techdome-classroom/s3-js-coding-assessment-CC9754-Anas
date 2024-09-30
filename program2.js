@@ -9,7 +9,7 @@ var romanToInt = function(s) {
     let integeralValue = 0;
     for(let i = 0; i < s.length; i++){
       if(romanNum[s[i]] < romanNum[s[i + 1]]){
-        integeralValue += 
+        integeralValue += romanNum[s[i + 1]]
       }
     }
 };
