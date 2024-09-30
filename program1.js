@@ -29,8 +29,8 @@ var isValid = function (s) {
       default:
         break;
     }
-    
   }
+  
 };
 
 module.exports = { isValid };
