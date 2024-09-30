@@ -7,8 +7,8 @@ var isValid = function (s) {
   let curly = 0;
   let bigBrackets = 0;
   for (let i = 0; i < s.length; i++) {
-    switch s[i]:
-    
+    switch:
+
   }
 };
 
