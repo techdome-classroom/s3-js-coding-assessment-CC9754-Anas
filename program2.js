@@ -13,6 +13,9 @@ var romanToInt = function(s) {
         integeralValue += romanNum[s[i + 1]] - romanNum[s[i]];
         i += 2;
       }
+      else{
+        
+      }
     }
 };
 
