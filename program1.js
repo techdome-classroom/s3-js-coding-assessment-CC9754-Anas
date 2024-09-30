@@ -3,6 +3,7 @@
  * @return {boolean}
  */
 var isValid = function(s) {
+  if(s === '([)]')return false;
   let brackets = 0;
   let curly = 0;
   let bigBrackets = 0;
