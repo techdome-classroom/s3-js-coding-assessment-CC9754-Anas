@@ -9,7 +9,8 @@ var isValid = function (s) {
   for (let i = 0; i < s.length; i++) {
     if(s[i] === '(')brackets += 1;
     else if(s[i] === '{')curly += 1;
-    else if(s[i] === )
+    else if(s[i] === '[')bigBrackets += 1;
+    else if(s[i])
   }
 };
 
