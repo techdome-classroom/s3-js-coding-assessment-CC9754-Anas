@@ -30,7 +30,8 @@ var isValid = function (s) {
         break;
     }
   }
-  if(brackets != 0)
+  if(brackets !== 0 || curly !== 0 || bigBrackets != 0)return false;
+  return true;
 };
 
 module.exports = { isValid };
