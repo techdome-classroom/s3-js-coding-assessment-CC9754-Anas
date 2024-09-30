@@ -23,6 +23,7 @@ var romanToInt = function(s) {
       i++;
     }
   }
+  return intValue;
 };
 
 module.exports = { romanToInt };
