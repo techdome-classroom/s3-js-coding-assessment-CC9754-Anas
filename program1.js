@@ -8,10 +8,24 @@ var isValid = function (s) {
   let bigBrackets = 0;
   for (let i = 0; i < s.length; i++) {
     switch (s[i]) {
-      case value:
-        
+      case '(':
+        brackets += 1;
         break;
-    
+      case '{':
+        curly += 1;
+        break;
+      case '[':
+        bigBrackets += 1;
+        break;
+      case ')':
+        brackets -= 1;
+        break;
+      case '}':
+        curly -= 1;
+        break;
+      case ']':
+        bigBrackets -= 1;
+        break;
       default:
         break;
     }
